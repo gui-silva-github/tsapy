@@ -1,10 +1,10 @@
-# Transaction Safe API
+# 🚀 Transaction Safe API
 
 This project is designed to detect fraudulent credit card transactions using machine learning techniques. The dataset, sourced from Kaggle, contains transaction data with features such as Time, V1, V2, ..., and a Class column that indicates whether a transaction is fraudulent (1) or legitimate (0).
 
 <hr>
 
-## Recursos
+## 😎 Recursos
 
 - Machine Learning Model: The model is built using Python and trained on the Kaggle dataset to predict fraud based on transaction features.
 - Flask Framework: The project uses Flask to create a simple API service to serve the model's predictions.
@@ -13,7 +13,7 @@ This project is designed to detect fraudulent credit card transactions using mac
 
 <hr>
 
-## Estrutura do Projeto
+## 🫴 Estrutura do Projeto
 
 - Data preprocessing: Clean and prepare the Kaggle dataset for model training.
 - Model training: Both traditional machine learning models and deep learning models are trained and evaluated.
@@ -22,15 +22,18 @@ This project is designed to detect fraudulent credit card transactions using mac
 
 <hr>
 
-## Imagens em Excel do .csv
+## ↪️ Imagens em Excel do .csv
 
-
+<img src="https://github.com/gui-silva-github/tsapy/blob/main/creditcard.xlsx/dataForTest.png"/>
 
 <hr>
 
-## Como rodar?
+## 🚝 Como rodar?
 
-1. Clone the repository.
+1. Clone the repository:
+```bash
+git clone https://github.com/gui-silva-github/tsapy.git
+```  
 2. Change directory:
 ```bash
 cd tsapy
@@ -57,7 +60,7 @@ php -S localhost:8000
 
 <hr>
 
-## Inspiração 
+## 👌 Inspiração 
 
 This project is inspired by Kaggle's Credit Card Fraud Detection dataset, which contains anonymized transaction data. The goal is to create an accurate and scalable fraud detection system using modern machine learning tools.
 
